@@ -3,6 +3,7 @@
 /** @type {import("eslint").Linter.Config} */
 const config = {
   rules: {
+    "@typescript-eslint/ban-types": ["warn", { extendDefaults: true, types: { "{}": false } }],
     "@typescript-eslint/explicit-function-return-type": ["off"],
     "@typescript-eslint/no-misused-promises": ["warn"],
     "@typescript-eslint/no-unsafe-assignment": ["warn"],
