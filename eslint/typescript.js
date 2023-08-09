@@ -9,9 +9,9 @@ const config = {
     {
       files: TYPESCRIPT_FILES,
       extends: [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:@typescript-eslint/strict",
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked",
         "plugin:import/typescript",
         getPrettierPlugin(),
         require.resolve("./rules/typescript"),
