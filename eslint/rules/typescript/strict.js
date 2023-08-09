@@ -5,6 +5,7 @@ const config = {
   rules: {
     "@typescript-eslint/ban-types": ["warn", { extendDefaults: true, types: { "{}": false } }],
     "@typescript-eslint/explicit-function-return-type": ["off"],
+    "@typescript-eslint/no-confusing-void-expression": ["off"],
     "@typescript-eslint/no-misused-promises": ["warn"],
     "@typescript-eslint/no-unsafe-assignment": ["warn"],
     "@typescript-eslint/no-unsafe-member-access": ["warn"],
