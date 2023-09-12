@@ -1,7 +1,7 @@
 {
   "name": "@graz-sh/style-guide",
   "description": "ESLint and Prettier style guide for various Graz projects 🤙",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "author": "Griko Nibras <griko@graz.sh>",
   "repository": "https://github.com/graz-sh/style-guide",
   "homepage": "https://github.com/graz-sh/style-guide",
