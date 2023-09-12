@@ -9,7 +9,7 @@ const config = {
     "import/newline-after-import": ["warn"],
     "import/no-absolute-path": ["error"],
     "import/no-cycle": ["off"],
-    "import/no-default-export": ["error"],
+    "import/no-default-export": ["off"],
     "import/no-mutable-exports": ["error"],
     "import/no-relative-packages": ["warn"],
     "import/no-self-import": ["error"],
