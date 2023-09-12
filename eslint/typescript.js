@@ -19,6 +19,15 @@ const config = {
         require.resolve("./rules/typescript/strict"),
         require.resolve("./rules/tsdoc"),
       ],
+      settings: {
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts", ".tsx"],
+        },
+        "import/resolver": {
+          node: {},
+          typescript: {},
+        },
+      },
     },
   ],
 };

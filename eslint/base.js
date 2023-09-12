@@ -31,7 +31,9 @@ const config = {
   plugins: ["simple-import-sort", "unused-imports"],
   reportUnusedDisableDirectives: true,
   settings: {
-    "import/resolver": { node: {} },
+    "import/resolver": {
+      node: {},
+    },
   },
   overrides: [
     {
